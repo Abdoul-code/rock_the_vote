@@ -1,0 +1,45 @@
+
+{
+    "appetizers": [
+        {
+            "name": "chips",
+            "desc": "doritos",
+            "ingredients": "chemicals"
+        },
+        {
+            "name": "chicken wangs",
+            "desc": "Buffalo",
+            "ingredients": "angels"
+        }
+    ],
+    "Cold Sandwiches": [
+        {
+            "name":"sandw",
+            "desc":"Turkey sandwishes",
+            "ingredients":["tomatoes","lettuce","onion"]
+            
+        },
+        {
+            "name":"sandw",
+            "desc":" Pulled pork sandwishes",
+            "ingredients":["tomatoes","lettuce","onion"] 
+        }
+
+    ],
+    "hot sandwiches":[
+        {
+            "name":"Hamburger",
+            "desc":"Humburger sandwishes",
+            "ingredients":["meet","bun","mayo"]
+        },
+        {
+            "name":"cheeseburger",
+            "desc":"cheeseburger sandwishes",
+            "ingredients":["meet","bun","mayo","cooked well"]
+        }
+
+    ]
+}
+
+
+

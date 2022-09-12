@@ -1,0 +1,67 @@
+
+#tete{
+    position:static;
+    text-align: center;
+
+}
+
+.container_title{
+    position: relative;
+    bottom: 100px;
+}
+#title_container{
+    position:relative;
+    margin-right: 50px;
+}
+#price_container{
+    margin-left: 100px ;
+}
+
+#desc_container{
+    margin-left: 150px ;
+}
+
+#img_container{
+    margin-left: 200px ;
+}
+
+#div.container_title{
+    text-align: center;
+}
+.todo{
+    /* display: flex; */
+    text-underline-position: auto;
+}
+.todo>h1{
+    position: relative;
+    left: 20px;
+    font-size: 25px;
+}
+.todo>h2{
+    position: relative;
+    bottom: 50px;
+    left: 320px;
+}
+.todo>button{
+    position: relative;
+    left: 1000px;
+    bottom: 245px ;
+}
+.todo>p{
+    position: relative;
+    left: 620px;
+    bottom: 99px ;
+    font-size: 20px;
+}
+.todo>img{
+    position: relative;
+    left: 980px;
+    width: 200px;
+    height: 80px;
+    bottom: 150px;
+}
+.checkbox{
+    position: relative;
+    right:257px;
+    bottom: 200px;
+}

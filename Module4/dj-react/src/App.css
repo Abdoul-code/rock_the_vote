@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://wallpaperbat.com/img/46985-dj-background.jpg");
+    background-size: cover;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,240px);
+    gap: 10px;
+    justify-content: center;
+}
+.gridBox{
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+}
+.BtnContainer{
+    display: flex;
+    border-radius: 12rem;
+    cursor:crosshair;
+    justify-content: center;
+}

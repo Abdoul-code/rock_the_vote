@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="container"> My Travel Form</div>
+    <form name="reservationForm" id="design">
+        First name: <input type="text" name="firstname" /><br><br>
+        Last name: <input type="text" name="lastname"/><br><br>
+        Age: <input type="number" name="age"/><br><br>
+        Gender: Male: <input type="radio" name="gender" value="Male"/>
+        Female: <input type="radio" name="gender" value="Female"/><br><br>
+        Location: <select name="ville">
+            <option value="Bamako"> Bamako</option>
+            <option value="France"> France</option>
+            <option value="Canada"> Canada</option>
+        </select><br><br>
+        Dietary restrictions: Vegetarian: <input type="checkbox" name="food" value="Vegetarian"/>
+        Kosher: <input type="checkbox" name="food" value="Kosher"/>
+        Lactose free: <input type="checkbox" name="food" value="Lactose free"/><br><br>
+        
+        <button type="submit">submit</button>
+        
+    </form>
+</body>
+<script src="airplane.js"></script>
+</html>

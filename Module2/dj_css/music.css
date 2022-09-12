@@ -1,0 +1,82 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+    margin: inherit;
+    transition: background-color 1s linear 1s,width 1s linear;
+}
+
+#box1:hover{
+background-color: yellowgreen;
+width: 400px;
+
+}
+
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: inherit;
+    /* transition-timing-function: cubic-bezier(0.55, 0.09, 0.68, 0.53); */
+    transition: 1000ms backround ease-out , 1s transform ease-in 1s;
+}
+#box2:hover{
+    background-color: bisque;
+    transform:rotate(50deg)
+
+}
+
+#box3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: 1px solid black;
+    margin: inherit;
+    transition: 1000ms backround ease-in , 1s height ease-in-out 1s;
+}
+
+#box3:hover{
+    background-color: bisque;
+    height: 500px;
+   
+    
+}
+
+#box4{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+    margin: inherit;
+}
+
+#box4:hover{
+    
+}
+
+#box5{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 213);
+    border: 1px solid black;
+    margin: inherit;
+}
+
+#box5:hover{
+    
+}
+
+#box6{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 200);
+    border: 1px solid black;
+    margin: inherit;
+}
+
+#box6:hover{
+    
+}
+
